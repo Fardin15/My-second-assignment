@@ -125,9 +125,6 @@ body{
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 16px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
 }
 
 .destination-text{
@@ -190,3 +187,68 @@ body{
     grid-column: 7/span 6;
 }
 /* destination section ends here */
+
+/* choose us section starts here */
+.choose-us{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.choosing-description{
+    text-align: center;
+    margin-bottom: 48px;
+    padding: 10px;
+}
+
+.choosing-description h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.choosing-description p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #131318B2;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards{
+    width: 48%;
+    padding: 15px;
+    margin-bottom: 10px;
+    height: 284px;
+    border-radius: 16px;
+}
+
+.cards h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0;
+    color: #131318;
+}
+
+.cards p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-one{
+    background-color: #FBB56333;
+}
+
+.card-two{
+    background-color: #29CEF633;
+}
+
+.card-three{
+    background-color: #E9444433;
+}
+/* choose us section ends here */
