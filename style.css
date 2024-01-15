@@ -12,13 +12,13 @@ body{
 
 /* header and nav starts here */
 .nav-container{
-   
     max-width: 1170px;
     margin: 0 auto;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5px;
 }
 
 .nav-logo{
@@ -58,8 +58,135 @@ body{
 
 /* banner section starts here */
 .banner-container{
-    border: 1px solid red;
     max-width: 1170px;
     margin: 0 auto;
+    margin-top: 20px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0) 100%),url(./Images/Group-13.png) ;
+    min-height: 500px;
+    border-radius: 16px;
+}
+
+.banner-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: #FFFFFF;
+}
+
+.banner-main h1{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-main p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-items{
+
 }
 /* banner section ends here */
+
+/* history section starts here */
+.history-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.history-discription{
+    width: 48%;
+    padding: 20px;
+    gap: 20px;
+}
+.histiry-img{
+    width: 48%;
+    height: 550px;
+}
+
+.history-discription .btn-primary{
+    width: 174px;
+    height: 52px;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* history section ends here */
+
+/* destination section starts here */
+.destination-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 16px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.destination-text{
+    text-align: center;
+    margin-bottom: 48px;
+    padding: 10px;
+}
+
+.destination-text h1{
+    font-size: 40px;
+    font-weight: 1000;
+    color: #131318;
+    margin-bottom: 24px;
+}
+
+.destination-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #131318B2;
+}
+
+.destination-imgs{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 24px;
+}
+
+.destination-imgs img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid-img-1{
+    grid-column: 1/span 6;
+}
+
+.grid-img-2{
+    grid-column: 7/span 6;
+}
+
+.grid-img-3{
+    grid-column: 1/span 4;
+}
+
+.grid-img-4{
+    grid-column: 5/span 4;
+}
+
+.grid-img-5{
+ grid-column: 9/span 4;
+}
+
+.grid-img-6{
+    grid-column: 1/span 6;
+}
+
+.grid-img-7{
+    grid-column: 7/span 6;
+}
+/* destination section ends here */
