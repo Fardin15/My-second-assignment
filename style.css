@@ -38,7 +38,7 @@ body{
     font-weight: 800;
 }
 
-.nav-logo .travel{
+.travel{
     color: #FF5400;
 }
 
@@ -252,3 +252,122 @@ body{
     background-color: #E9444433;
 }
 /* choose us section ends here */
+
+/* newsletter starts here */
+.newsletter-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.newsletter-main{
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+}
+
+.newsletter-main h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.newsletter-main p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+hr{
+    width: 393px;
+    margin-bottom: 24px;
+    color: #1313181A;
+}
+
+.newsletter-main input {
+    width: 393px;
+    height: 52px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1313180D;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+}
+
+.newsletter-main button{
+    background-color: #FF5400;
+    width: 393px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: none;
+}
+
+.newsletter-img{
+    width: 58%;
+    border-radius: 16px;
+}
+/* newsletter ends here */
+
+/* footer starts here */
+#footer{
+    background-color: #1313180D;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 400px;
+    padding-top: 110px;
+}
+
+.footer-main{
+    display: flex;
+}
+
+.footer-main img{
+    width: 40px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.footer-main h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.footer-container p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+
+.footer-icons .fa-brands{
+    font-size: 40px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.footer-container hr{
+    margin-bottom: 50px;
+}
+
+.footer-container .footer-end{
+    font-size: 25px;
+    font-weight: 300;
+}
+/* footer ends here */
