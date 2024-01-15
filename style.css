@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .nav-logo{
@@ -48,6 +48,14 @@ body{
     color: #424247;
     font-size: 18px;
     font-weight: 400;
+    transition: .4s;
+    padding: 0 10px;
+}
+
+.nav-items a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: white;
 }
 
 .nav-items .home{
@@ -72,6 +80,8 @@ body{
     align-items: center;
     gap: 30px;
     color: #FFFFFF;
+    padding-top: 80px;
+    
 }
 
 .banner-main h1{
@@ -85,7 +95,8 @@ body{
 }
 
 .input-items{
-
+    width: 800px;
+    height: 85px;
 }
 /* banner section ends here */
 
@@ -95,15 +106,31 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 16px;
+    margin-top: 50px;
 }
 
 .history-discription{
     width: 48%;
-    padding: 20px;
-    gap: 20px;
+    padding: 20px; 
+    height: auto;
 }
-.histiry-img{
+
+.history-discription h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.history-discription p,ul{
+    margin-bottom: 24px;
+}
+
+.history-discription p, li{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.history-img{
     width: 48%;
     height: 550px;
 }
@@ -124,7 +151,7 @@ body{
 .destination-section{
     max-width: 1170px;
     margin: 0 auto;
-    margin-top: 16px;
+    margin-top: 50px;
 }
 
 .destination-text{
@@ -186,13 +213,22 @@ body{
 .grid-img-7{
     grid-column: 7/span 6;
 }
+
+.grid-items{
+    transition: .4s;
+}
+
+.grid-items:hover{
+    transform: scale(1.2);
+    background-color: gray;
+}
 /* destination section ends here */
 
 /* choose us section starts here */
 .choose-us{
     max-width: 1170px;
     margin: 0 auto;
-    margin-top: 16px;
+    margin-top: 50px;
 }
 
 .choosing-description{
@@ -226,6 +262,12 @@ body{
     margin-bottom: 10px;
     height: 284px;
     border-radius: 16px;
+    transition: .4s;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
 }
 
 .cards h1{
@@ -257,7 +299,7 @@ body{
 .newsletter-container{
     max-width: 1170px;
     margin: 0 auto;
-    margin-top: 16px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     
@@ -303,7 +345,7 @@ hr{
     border: none;
 }
 
-.newsletter-main button{
+.newsletter-main .subscribe{
     background-color: #FF5400;
     width: 393px;
     height: 52px;
@@ -311,6 +353,13 @@ hr{
     font-weight: 800;
     border-radius: 8px;
     border: none;
+    text-align: center;
+    padding:10px;
+    transition: .4s;
+}
+
+.subscribe:hover{
+    transform: scale(0.9);
 }
 
 .newsletter-img{
@@ -360,6 +409,13 @@ hr{
     font-size: 40px;
     margin-right: 20px;
     margin-bottom: 50px;
+    transition: .4s;
+}
+
+.icons-style:hover{
+    background-color: gray;
+    transform: scale(1.2);
+    border-radius: 10px;
 }
 
 .footer-container hr{
