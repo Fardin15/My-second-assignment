@@ -228,14 +228,14 @@ body{
     color: #131318B2;
 }
 
-.destination-imgs{
+.destination-images{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,1fr);
     gap: 24px;
 }
 
-.destination-imgs img{
+.destination-images img{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -649,6 +649,9 @@ hr{
 
 /* responsive starts here */
 @media only screen and (max-width:600px){
+    body{
+        margin: 0 20px;
+    }
     /* nav */
     .nav-container{
         width: 100%;
@@ -719,7 +722,7 @@ hr{
     .destination-text p{
         font-size: 14px;
     }
-    .destination-imgs{
+    .destination-images{
         grid-template-columns: repeat(1,1fr);
     }
     .grid-img-1{
@@ -772,7 +775,6 @@ hr{
     /* deals and discounts */
     .deals-discounts{
         width: 100%;
-        height: ;
     }
     .deals-description h1{
         font-size: 20px;
@@ -780,10 +782,11 @@ hr{
     .deals-description p{
         font-size: 14px;
     }
+    .deals-one{
+        align-items: center;
+    }
     .sub-deals{
-        width: 100%;
         margin-left: 40px;
-        margin:50px;
     }
 
     /* newsletter */
