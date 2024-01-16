@@ -350,7 +350,7 @@ body{
 .cards p{
     font-size: 16px;
     font-weight: 400;
-    width: 500px;
+    width: 300px;
     margin-top: 20px;
 }
 
@@ -452,9 +452,6 @@ body{
     color: #131318B2;
     margin-bottom: 50px;
 }
-
-.d
-
 .deals-one{
     background-image: url(./Images/Group-39.png);
     height: 500px;
@@ -531,6 +528,25 @@ body{
 
 .deals-two .sub-deals{
     margin-left:550px;
+}
+
+.packages{
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+    transition: .4s;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.packages:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 /* deals and discount ends here */
 
@@ -803,11 +819,10 @@ hr{
         font-size: 14px;
     }
     .card-container{
-        flex-direction: column;
-        width: 100%;
+        flex-direction: column; 
     }
     .cards{
-        width: 100%;
+        width: 500px;
     }
     .cards img{
         width: 48px;
@@ -818,6 +833,17 @@ hr{
     }
     .cards p{
         font-size: 14px;
+    }
+    /* guideline */
+    .guideline-section{
+        flex-direction: column-reverse;
+    }
+    .guideline-info{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .hills{
+        width: 100%;
     }
 
     /* deals and discounts */
