@@ -356,7 +356,6 @@ body{
 
 /* deals and discount starts here */
 .deals-discounts{
-    border: 2px solid red;
     max-width: 1170px;
     margin: 0 auto;
     margin-top: 50px;
@@ -364,6 +363,10 @@ body{
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
+}
+
+.deals-discounts *{
+    margin-bottom: 20px;
 }
 
 .deals-description{
@@ -391,6 +394,79 @@ body{
 .deals-one{
     background-image: url(./Images/Group-39.png);
     height: 500px;
+    background-repeat: no-repeat;
+}
+
+.sub-deals{
+    background-color: #FFFFFFCC;
+    width: 50%;
+    height: 390px;
+    border-radius: 16px;
+    border: 2px solid white;
+    margin:60px 30px;
+    padding: 40px;
+}
+.sub-deals .deals-history{
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 24px;
+}
+
+.sub-deals .deals-history .deals-icon{
+    color: #FF5400;
+    width: 24px;
+    height: 24px;
+}
+
+.sub-deals .deals-info h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 16px;
+}
+
+.sub-deals .deals-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+    margin-bottom: 16px;
+}
+
+.sub-deals .deals-info h2{
+    font-size: 20px;
+    font-weight: 800;
+    color: #FF5400;
+    margin-bottom: 24px;
+}
+
+.deals-info button{
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    transition: .4s;
+}
+
+.deals-info button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.deals-discounts .deals-two{
+    background-image: url(./Images/Group-40.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.deals-two .sub-deals{
+    margin-left:550px;
 }
 /* deals and discount ends here */
 
@@ -401,8 +477,6 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    
-
 }
 
 .newsletter-main{
