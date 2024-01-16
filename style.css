@@ -367,6 +367,55 @@ body{
 }
 /* choose us section ends here */
 
+/* guideline section starts here */
+.guideline-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.guideline-section .guideline-info{
+    text-align: center;
+    padding: 20px;
+}
+
+.guideline-section .guideline-info h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #131318;
+}
+
+.guideline-section .guideline-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #131318B2;
+    margin-bottom: 50px;
+}
+
+.guideline-info button{
+    width: 174px;
+    height: 52px;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .4s;
+}
+
+.guideline-info button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/* guideline section starts here */
+
 /* deals and discount starts here */
 .deals-discounts{
     max-width: 1170px;
@@ -403,6 +452,8 @@ body{
     color: #131318B2;
     margin-bottom: 50px;
 }
+
+.d
 
 .deals-one{
     background-image: url(./Images/Group-39.png);
