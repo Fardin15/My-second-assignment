@@ -354,6 +354,46 @@ body{
 }
 /* choose us section ends here */
 
+/* deals and discount starts here */
+.deals-discounts{
+    border: 2px solid red;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.deals-description{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deals-description h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #131318;
+}
+
+.deals-description p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #131318B2;
+    margin-bottom: 50px;
+}
+
+.deals-one{
+    background-image: url(./Images/Group-39.png);
+    height: 500px;
+}
+/* deals and discount ends here */
+
 /* newsletter starts here */
 .newsletter-container{
     max-width: 1170px;
