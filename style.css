@@ -56,6 +56,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     color: white;
+    transform: scale(2);
 }
 
 .nav-items .home{
@@ -109,23 +110,23 @@ body{
     margin-top: 50px;
 }
 
-.history-discription{
+.history-description{
     width: 48%;
     padding: 20px; 
     height: auto;
 }
 
-.history-discription h1{
+.history-description h1{
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-.history-discription p,ul{
+.history-description p,ul{
     margin-bottom: 24px;
 }
 
-.history-discription p, li{
+.history-description p, li{
     font-size: 16px;
     font-weight: 400;
 }
@@ -135,7 +136,7 @@ body{
     height: 550px;
 }
 
-.history-discription .btn-primary{
+.history-description .btn-primary{
     width: 174px;
     height: 52px;
     background-color: #FF5400;
@@ -144,6 +145,11 @@ body{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
+    transition: .4s;
+}
+
+.history-description .btn-primary:hover{
+    transform: scale(1.2);
 }
 /* history section ends here */
 
@@ -365,6 +371,33 @@ hr{
 .newsletter-img{
     width: 58%;
     border-radius: 16px;
+    position: relative;
+}
+
+.newsletter-img .save {
+    width: 324px;
+    height: 120px;
+    background-color: #FF5400;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    rotate: -20deg;
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    color: #FFFFFF;
+}
+
+.newsletter-img .save p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.newsletter-img .save h1{
+    font-size: 32px;
+    font-weight: 800;
 }
 /* newsletter ends here */
 
