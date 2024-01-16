@@ -81,8 +81,7 @@ body{
     align-items: center;
     gap: 30px;
     color: #FFFFFF;
-    padding-top: 80px;
-    
+    padding-top: 80px;  
 }
 
 .banner-main h1{
@@ -98,6 +97,44 @@ body{
 .input-items{
     width: 800px;
     height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background:#13131880 ;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.input-items .input input{
+    width: 175px;
+    height: 52px;
+    font-weight: 400;
+    padding: 10px;
+    border:none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input-items .btn{
+    width: 175px;
+    height: 52px;
+    font-weight: 700;
+    background-color: #FF5400;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.input-items .btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.btn .search{
+    margin-right: 10px;
 }
 /* banner section ends here */
 
@@ -150,6 +187,7 @@ body{
 
 .history-description .btn-primary:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
 /* history section ends here */
 
@@ -190,6 +228,7 @@ body{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%) 
 }
 
 .grid-img-1{
@@ -222,6 +261,17 @@ body{
 
 .grid-items{
     transition: .4s;
+    position: relative;
+}
+
+.grid-items .text{
+    position: absolute;
+    font-size: 28px;
+    font-weight: 800;
+    color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .grid-items:hover{
@@ -247,6 +297,7 @@ body{
     font-size: 40px;
     font-weight: 800;
     color: #131318;
+    margin-bottom: 20px;
 }
 
 .choosing-description p{
@@ -264,7 +315,7 @@ body{
 
 .cards{
     width: 48%;
-    padding: 15px;
+    padding: 30px;
     margin-bottom: 10px;
     height: 284px;
     border-radius: 16px;
@@ -286,6 +337,8 @@ body{
 .cards p{
     font-size: 16px;
     font-weight: 400;
+    width: 500px;
+    margin-top: 20px;
 }
 
 .card-one{
@@ -332,6 +385,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
+    width: 400px;
 }
 hr{
     width: 393px;
@@ -349,6 +403,7 @@ hr{
     font-weight: 400;
     border-radius: 8px;
     border: none;
+    outline: none;
 }
 
 .newsletter-main .subscribe{
@@ -365,7 +420,8 @@ hr{
 }
 
 .subscribe:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .newsletter-img{
@@ -460,3 +516,22 @@ hr{
     font-weight: 300;
 }
 /* footer ends here */
+
+/* responsive starts here */
+@media only screen and (max-width:600px){
+    .nav-container{
+        width: 100%;
+    }
+    .nav-logo{
+        flex-direction: column;
+    }
+    .banner-main{
+        width: 100%; 
+    }
+    .banner-main h1{
+        font-size: 50px;
+    }
+    .banner-main p{
+    }
+}
+/* responsive ends here */
