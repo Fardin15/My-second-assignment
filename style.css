@@ -63,6 +63,12 @@ body{
     font-weight: 700;
     color: #FF5400;
 }
+
+#nav-icon{
+    width: 24px;
+    height: 24px;
+    display: none;
+}
 /* header and nav ends here */
 
 /* banner section starts here */
@@ -78,10 +84,11 @@ body{
 .banner-main{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     gap: 30px;
     color: #FFFFFF;
     padding-top: 80px;  
+    align-items: center;
 }
 
 .banner-main h1{
@@ -92,6 +99,7 @@ body{
 .banner-main p{
     font-size: 16px;
     font-weight: 400;
+    
 }
 
 .input-items{
@@ -272,10 +280,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 300px;
+    margin-left: 80px;
 }
 
 .grid-items:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: gray;
 }
 /* destination section ends here */
@@ -374,7 +384,7 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .deals-description h1{
@@ -574,6 +584,7 @@ hr{
 /* footer starts here */
 #footer{
     background-color: #1313180D;
+    padding-bottom: 40px;
 }
 .footer-container{
     display: flex;
@@ -606,6 +617,7 @@ hr{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 33px;
+    text-align: center;
 }
 
 .footer-icons .fa-brands{
@@ -636,16 +648,194 @@ hr{
     .nav-container{
         width: 100%;
     }
-    .nav-logo{
-        flex-direction: column;
+    .nav-logo img{
+        width: 29px;
+        height: 33px;
+        object-fit: cover;
     }
-    .banner-main{
-        width: 100%; 
+    .nav-logo h1{
+        font-size: 22px; 
     }
+    .nav-items a{
+        display: none;
+    }
+    #nav-icon{
+        display: block;
+    }
+
+    .banner-container{
+        width:100%
+    }
+
     .banner-main h1{
-        font-size: 50px;
+        width: 205px;
+        height: 28px;
+        font-size: 22px;
     }
     .banner-main p{
+        width: 304px;
+        font-size: 14px;
+    }
+    .input-items{
+            width: 80%px;
+            height: 250px;
+            padding: 10px;
+            font-size: 8pxpx;
+            flex-direction: column;
+    }
+    .input-items .input{
+        margin: 16px;
+    }
+    .input-items .input input{
+        width: 350px;
+        height: 52px;
+    }
+
+    .input-items .btn{
+        width: 350px;
+        height: 52px;
+    }
+    .history-section{
+       width: 100%;
+       flex-direction: column;
+       margin-top: 24px;
+    }
+    .history-description{
+        width: 100%;
+    }
+    .history-section .history-img{
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .destination-text h1{
+        font-size: 20px;
+    }
+
+    .destination-text p{
+        font-size: 14px;
+    }
+
+    .destination-imgs{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .grid-img-1{
+        grid-column: 1/span 1;
+    }
+    
+    .grid-img-2{
+        grid-column: 1/span 1;
+    }
+    
+    .grid-img-3{
+        grid-column: 1/span 1;
+    }
+    
+    .grid-img-4{
+        grid-column: 1/span 1;
+    }
+    
+    .grid-img-5{
+     grid-column: 1/span 1;
+    }
+    
+    .grid-img-6{
+        grid-column: 1/span 1;
+    }
+    
+    .grid-img-7{
+        grid-column: 1/span 1;
+    }
+
+    .choosing-description h1{
+        font-size: 20px;
+    }
+
+    .choosing-description p{
+        font-size: 14px;
+    }
+
+    .card-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cards{
+        width: 100%;
+    }
+    .cards img{
+        width: 48px;
+        height: 48px;
+    }
+    .cards h1{
+        font-size: 20px;
+    }
+    .cards p{
+        font-size: 14px;
+    }
+    .deals-description h1{
+        font-size: 20px;
+    }
+    .deals-description p{
+        font-size: 14px;
+    }
+    /* .deals-items{
+        width: 80%px;
+        height: 100%px;
+    }
+    .sub-deals{
+        width: 100%;
+    } */
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .newsletter-main{
+        width: 100%;
+        height: 400px;
+        align-items: center;
+    }
+    .newsletter-main h1{
+        font-size: 20px;
+    }
+    .newsletter-main p{
+        font-size: 14px;
+    }
+    .newsletter-img{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .newsletter-img img{
+        width: 100%;
+    }
+    .newsletter-img .save {
+        width: 200px;
+        height: 80px;
+        left: 42%;
+        bottom: 14%;
+    }
+    .newsletter-img .save p{
+        font-size: 14px;
+    }
+    .newsletter-img .save h1{
+        font-size: 20px;
+    }
+    #footer{
+        width: 100%;
+    }
+    .footer-container{
+        width: 100%;
+    }
+    .footer-main{
+        /* align-items: center; */
+        text-align: center;
+    }
+    .footer-main img{
+        width: 40px;
+        height:40px;
+    }
+    .footer-main h1{
+        font-size: 20px;
     }
 }
 /* responsive ends here */
