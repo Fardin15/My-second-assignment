@@ -232,7 +232,7 @@ body{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,1fr);
-    gap: 24px;
+    gap: 20px;
 }
 
 .destination-images img{
@@ -290,6 +290,7 @@ body{
 .grid-items:hover{
     transform: scale(1.1);
     background-color: gray;
+    border-radius: 10px;
 }
 /* destination section ends here */
 
@@ -459,7 +460,7 @@ body{
 }
 
 .sub-deals{
-    background-color: #FFFFFFCC;
+    background-color: #FFFFFF;
     width: 50%;
     height: 390px;
     border-radius: 16px;
